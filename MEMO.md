@@ -13,9 +13,11 @@ VS Marketplace リンク: https://marketplace.visualstudio.com/items?itemName=To
 ```
 
 3. パスを通す
+<!-- 永続するっぽい -->
 
 ```powershell
 $ENV:Path="~\scoop\apps\processing\3.5.4\processing-java.exe;"+$ENV:Path
 ```
 
 4. 実行方法は、そのスクリプトを開いて、Ctrl + Shift + B
+5. ライブラリを追加するには、`processing.exe` で GUI からライブラリを追加する。本体の方に追加される。
